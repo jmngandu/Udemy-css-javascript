@@ -2,3 +2,10 @@ h1{
     color: yellow;
     font-family: 'Trebuchet MS';
 }
+a {
+    text-decoration: none;
+}
+a:link {color: red;}
+a:visited {color: grey }
+a:hover {columns: pink;}
+a:active {color: green;}
