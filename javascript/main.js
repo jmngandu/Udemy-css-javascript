@@ -12,5 +12,8 @@ console.log(j);
 const FirstName = "James";
 const LastName  = "Ngandu";
 
-const sentence = "Hello " +FirstName+ " " +LastName+ " How are you?!"
+const sentence = "Hello "+FirstName+" "+LastName+"How are you?!"
 console.log(sentence);
+const jname = "Mukuvi";
+const description = `His name is ${jname} He is 20yrs`;
+console.log(description);
