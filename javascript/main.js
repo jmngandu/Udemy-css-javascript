@@ -13,13 +13,8 @@ if (2+2 === 4){
     console.log("Wrong");
 }
 
-const YourAge = 18;
-if (YourAge === 5){
-    console.log("Your young my friend");
-}else if (YourAge >= 10){
-    console.log("Go back home");
-}else if (YourAge == 18){
-    console.log("Eligible to vote");
-}else if (YourAge >= 18){
-    console.log("Your too old my friend");
+const friends = 10;
+friends = friends + 1;
+while ( friends < 10){
+    console.log(friends);
 }
