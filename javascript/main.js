@@ -13,8 +13,10 @@ if (2+2 === 4){
     console.log("Wrong");
 }
 
-const friends = 10;
-friends = friends + 1;
-while ( friends < 10){
+let friends = 0;
+
+while (friends < 10){
+    friends = friends + 1;
     console.log(friends);
 }
+console.log(friends);
