@@ -8,6 +8,11 @@ while(j < 10)
 ++j;
 }
 
-const num = 9.46;
-console.log(num + 65.9)
+const SkyBlue = true;
+if (SkyBlue){
+console.log("The sky is blue");
+}
+else{
+    console.log("The sky is not blue");
+}
 
