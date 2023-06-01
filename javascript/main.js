@@ -16,7 +16,7 @@ if (2+2 === 4){
 let friends = 0;
 
 while (friends < 10){
-    friends = friends + 1;
+    friends +=2;
     console.log(friends);
 }
 console.log(friends);
