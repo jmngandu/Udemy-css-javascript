@@ -8,3 +8,6 @@ while(j < 10)
 ++j;
 }
 
+const num = 9.46;
+console.log(num + 65.9)
+
