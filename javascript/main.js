@@ -5,18 +5,10 @@ console.log("The sky is blue");
 else{
     console.log("The sky is not blue");
 }
-
-if (2+2 === 4){
-    console.log("Correct!");
-}else
-{
-    console.log("Wrong");
+const character = "f";
+const repeat = 5;
+let answer = " ";
+for(let i = 0; i< repeat; i++){
+    answer = answer + character; 
 }
-
-let friends = 0;
-
-while (friends < 10){
-    friends +=2;
-    console.log(friends);
-}
-console.log(friends);
+console.log(answer);
