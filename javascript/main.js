@@ -18,7 +18,7 @@ if (YourAge === 5){
     console.log("Your young my friend");
 }else if (YourAge >= 10){
     console.log("Go back home");
-}else if (YourAge === 18){
+}else if (YourAge == 18){
     console.log("Eligible to vote");
 }else if (YourAge >= 18){
     console.log("Your too old my friend");
