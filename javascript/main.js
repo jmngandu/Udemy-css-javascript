@@ -7,8 +7,13 @@ else{
 }
 const character = "f";
 const repeat = 5;
-let answer = " ";
+let answer = ` `;
 for(let i = 0; i< repeat; i++){
     answer = answer + character; 
 }
 console.log(answer);
+
+function greet(FirstName, LastName, Greetings){
+    return `${Greetings}, ${FirstName} ${LastName} How are you doing sir`
+}
+console.log(greet("James", "Ngandu", "Hello!"));
