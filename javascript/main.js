@@ -17,3 +17,5 @@ function greet(FirstName, LastName, Greetings){
     return `${Greetings}, ${FirstName} ${LastName} How are you doing sir`
 }
 console.log(greet("James", "Ngandu", "Hello!"));
+
+
